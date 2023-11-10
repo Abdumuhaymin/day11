@@ -1,0 +1,53 @@
+.about-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.about-title{
+    width: 445px;
+    color: #242D52;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 44px; 
+    letter-spacing: -0.714px;
+    margin-bottom: 24px;
+}
+.about-text{
+    width: 350px;
+    color: #242D52;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+.about-list{
+    width: 540px;
+}
+.about-item{
+    display: flex;
+    align-items: flex-start;
+    gap: 28px;
+}
+.order-title{
+    color: #242D52;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: -0.286px;
+    margin-bottom: 19px;
+}
+.order-text{
+    color: #9196A8;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 46px;
+}
+.about-order{
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: -0.286px;
+    border-radius: 39px;
+    background: #F3603C;
+    padding: 6px 23px;
+}

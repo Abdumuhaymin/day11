@@ -1,0 +1,192 @@
+/* be-vietnam-pro-300 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Be Vietnam Pro";
+  font-style: normal;
+  font-weight: 300;
+  src: url("../fonts/be-vietnam-pro-v11-latin-300.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* be-vietnam-pro-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Be Vietnam Pro";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/be-vietnam-pro-v11-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* be-vietnam-pro-500 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Be Vietnam Pro";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/be-vietnam-pro-v11-latin-500.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* be-vietnam-pro-700 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Be Vietnam Pro";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/be-vietnam-pro-v11-latin-700.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* be-vietnam-pro-800 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Be Vietnam Pro";
+  font-style: normal;
+  font-weight: 800;
+  src: url("../fonts/be-vietnam-pro-v11-latin-800.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+body {
+  font-family: "Be Vietnam Pro";
+}
+
+.container {
+  max-width: 1110px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#head {
+  padding-bottom: 120px;
+}
+
+.head-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 56px;
+}
+
+.head-list {
+  display: flex;
+  gap: 32px;
+}
+
+.head-item-link {
+  color: #242D52;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.head-item-link:hover {
+  opacity: 0.5;
+}
+
+.head-link {
+  background-color: #F3603C;
+  padding: 12px 32px;
+  border-radius: 30px;
+  color: #FCF6F5;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.head-link:hover {
+  border-radius: 22px;
+  background: #F98F75;
+  box-shadow: 0px 15px 15px -10px #FF9F8E;
+}
+
+.hero-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 138px;
+}
+
+.hero-title {
+  width: 445px;
+  color: #242D52;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 64px;
+  letter-spacing: -1px;
+  margin-bottom: 16px;
+}
+
+.hero-text {
+  width: 350px;
+  color: #242D52;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  margin-bottom: 40px;
+}
+
+.about-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.about-title {
+  width: 445px;
+  color: #242D52;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 44px;
+  letter-spacing: -0.714px;
+  margin-bottom: 24px;
+}
+
+.about-text {
+  width: 350px;
+  color: #242D52;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+.about-list {
+  width: 540px;
+}
+
+.about-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 28px;
+}
+
+.order-title {
+  color: #242D52;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: -0.286px;
+  margin-bottom: 19px;
+}
+
+.order-text {
+  color: #9196A8;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  margin-bottom: 46px;
+}
+
+.about-order {
+  color: #FFF;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: -0.286px;
+  border-radius: 39px;
+  background: #F3603C;
+  padding: 6px 23px;
+}/*# sourceMappingURL=main.css.map */

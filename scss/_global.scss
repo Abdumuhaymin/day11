@@ -1,0 +1,21 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+a{
+    display: inline-block;
+    text-decoration: none;
+}
+ul,ol{
+    list-style: none;
+}
+body{
+    font-family: 'Be Vietnam Pro';
+}
+.container{
+    max-width: 1110px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
